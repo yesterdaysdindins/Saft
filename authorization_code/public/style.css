@@ -1,0 +1,42 @@
+body{
+  background-color: #0E1010;
+  color: #ffffff;
+}
+
+select{
+  color: black;
+}
+
+.center{
+  margin: auto;
+  width: 70%;
+}
+
+table{
+  margin-top: 5%;
+  border-collapse:separate;
+  border:solid white 2px;
+  border-top: none;
+}
+
+td {
+    border-left:solid white 1px;
+    border-top:solid white 1px;
+    padding: 5px;
+}
+
+th {
+  background-color: #1db954;
+  border:solid white 2px;
+  border-right:solid white 1px;
+  border-bottom: solid white 1px;
+  padding: 5px;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+tr{
+  background-color: #191414;
+}
